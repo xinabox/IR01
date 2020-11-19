@@ -1,5 +1,12 @@
 # IR01
 <img src="images/IR01.JPG" width="35%" height="auto" align="right">
+
+## Install IR01 on the Raspberry Pi
+1. The IR01 is inserted with the name `IR01` facing away from the center of the Raspberry Pi.
+1. The header on the IR01 is inserted in to the Raspberry Pi starting with pin 1
+1. See image to the right.
+
+# OpenOCD
 Using the IR01 as an OpenOCD SWD programmer for supported XinaBox Cores
 
 ## Install OpenOCD
