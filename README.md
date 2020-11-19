@@ -21,7 +21,11 @@ There might be a simpler way, and if so, please post a pull request.
 
 ## Flash bootloader to CS11
 1. Insert the CS11 using two connectors (1x small and 1x large) as per the image above.
-1. Create a suitable folder:<br> `cd ~` :arrow_forward: `mkdir bootloaders` :arrow_forward: `cd bootloaders`
+1. Create a suitable folder:<br> ```bash
+cd ~
+mkdir bootloaders
+cd bootloaders
+```
 1. Download the CS11 Bootloader:<br> `wget https://github.com/xinabox/XinaBox-Bootloaders/raw/master/CS11/cs11_bootloader.bin` 
 1. Download the CS11 Config file:<br> `wget https://raw.githubusercontent.com/xinabox/XinaBox-Bootloaders/master/CS11/openocd.cfg`
 1. Run OpenOCD:<br> `sudo openocd -f openocd.cfg`
