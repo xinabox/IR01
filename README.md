@@ -1,4 +1,5 @@
 # IR01
+<img src="images/IR01.JPG" width="35%" height="auto" align="right">
 Using the IR01 as an OpenOCD SWD programmer for supported XinaBox Cores
 
 ## Install OpenOCD
