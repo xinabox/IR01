@@ -21,7 +21,8 @@ There might be a simpler way, and if so, please post a pull request.
 
 ## Flash bootloader to CS11
 1. Insert the CS11 using two connectors (1x small and 1x large) as per the image above.
-1. Create a suitable folder:<br> ```bash
+1. Create a suitable folder:<br> 
+```bash
 cd ~
 mkdir bootloaders
 cd bootloaders
